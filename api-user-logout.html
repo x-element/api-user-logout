@@ -70,13 +70,13 @@
     }
     
     on_response: function (event) {
-        event.stopPropagation();
-        this.fire('response', this.response);
+      event.stopPropagation();
+      this.fire('response', this.response);
     },
     
     on_error: function (event) {
-        event.stopPropagation();
-        this.fire('error', this.error);
+      event.stopPropagation();
+      this.fire('error', this.error);
     }
 
   });
